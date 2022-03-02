@@ -1,11 +1,14 @@
 # FormManagerDLL 視窗管理器
 
+## 影片展示
+
+https://youtu.be/LWlnUepisi4
 ## 使用教學
 - 1.加入參考(FormMangerdll.dll)
 - 2.新增容器(可以用Form視窗，那就是直接輸入this)以及顯示容器(Panel)。
 - 3.寫程式
 - 4.Enjoy!
-- 
+
 ``` C#
 private FormManager fm1; //新增全局變量
 
