@@ -1,4 +1,4 @@
-# FormManagerDLL
+# FormManagerDLL 視窗管理器
 
 ## 使用教學
 - 1.加入參考(FormMangerdll.dll)
