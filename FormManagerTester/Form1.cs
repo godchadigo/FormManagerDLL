@@ -62,7 +62,11 @@ namespace FormManagerTester
                     break;
             }
         }
-
+        /// <summary>
+        /// 群組3
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Group3(object sender, EventArgs e)
         {
             var obj = sender as Button;
