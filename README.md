@@ -1,9 +1,10 @@
 # FormManagerDLL
 
 ## 使用教學
-1.加入參考(FormMangerdll.dll)
-2.寫程式
-3.Enjoy!
+- 1.加入參考(FormMangerdll.dll)
+- 2.寫程式
+- 3.Enjoy!
+- 
 ``` C#
 private FormManager fm1; //新增全局變量
 
