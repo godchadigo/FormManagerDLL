@@ -2,7 +2,9 @@
 
 ## 影片展示
 
-https://youtu.be/LWlnUepisi4
+
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/LWlnUepisi4/0.jpg)](https://www.youtube.com/watch?v=LWlnUepisi4 "YOUR_VIDEO_TITLE")
 ## 使用教學
 - 1.加入參考(FormMangerdll.dll)
 - 2.新增容器(可以用Form視窗，那就是直接輸入this)以及顯示容器(Panel)。
