@@ -2,8 +2,9 @@
 
 ## 使用教學
 - 1.加入參考(FormMangerdll.dll)
-- 2.寫程式
-- 3.Enjoy!
+- 2.新增容器(可以用Form視窗，那就是直接輸入this)以及顯示容器(Panel)。
+- 3.寫程式
+- 4.Enjoy!
 - 
 ``` C#
 private FormManager fm1; //新增全局變量
@@ -11,7 +12,8 @@ private FormManager fm1; //新增全局變量
 public Form1()
 {
   InitializeComponent();
-  fm1 = new FormManager(flowLayoutPanel1,"Context1"); //實力化視窗管理器
+  fm1 = new FormManager(flowLayoutPanel1,"Context1"); //實力化視窗管理器，綁定容器flowLayoutPanel1作為底層，Context1(Panel)為顯示畫面的容器
+  //fm1 = new FormManager(this,"Context1"); //使用當前Form當作底層容器，Context1(Panel)為顯示畫面的容器
 }
 
 /// <summary>
